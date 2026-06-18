@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080811">
+  <title>NOVA — Key System</title>
+  <meta name="description" content="Получите ключ и присоединяйтесь к нашему Discord-сообществу.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fix.css">
+</head>
+<body>
+  <div class="aurora aurora-one"></div>
+  <div class="aurora aurora-two"></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#" aria-label="NOVA — главная">
+      <span class="brand-mark"></span>
+      <span>NOVA</span>
+    </a>
+    <a class="nav-link" data-discord-link href="#" target="_blank" rel="noopener noreferrer">
+      Discord <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span></span> KEY SYSTEM</div>
+      <h1>Ваш доступ.<br><span>Один ключ.</span></h1>
+      <p class="lead">Скопируйте ключ ниже и присоединяйтесь к нашему Discord-сообществу, чтобы быть в курсе обновлений.</p>
+
+      <div class="key-card">
+        <div class="card-top">
+          <div>
+            <span class="label">ВАШ КЛЮЧ</span>
+            <div class="status"><i></i> Активен</div>
+          </div>
+          <span class="shield" aria-hidden="true">✦</span>
+        </div>
+
+        <div class="key-field">
+          <code id="keyValue">NOVA-ACCESS-2026</code>
+          <button id="copyButton" type="button" aria-label="Скопировать ключ">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2M5 8h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2Z"/></svg>
+            <span>Копировать</span>
+          </button>
+        </div>
+
+        <a class="discord-button" data-discord-link href="#" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 5.34A17.3 17.3 0 0 0 15.44 4l-.5 1.02a15.9 15.9 0 0 0-5.87 0L8.56 4A17.5 17.5 0 0 0 4.5 5.35C1.93 9.17 1.23 12.9 1.58 16.58a16.4 16.4 0 0 0 4.98 2.5l1.22-1.67c-.67-.25-1.31-.56-1.91-.93l.47-.36c3.69 1.69 7.7 1.69 11.34 0l.48.36c-.61.37-1.25.68-1.92.93l1.21 1.67a16.4 16.4 0 0 0 4.98-2.5c.41-4.27-.7-7.96-2.93-11.24ZM8.5 14.33c-1.11 0-2.02-1.02-2.02-2.27 0-1.26.89-2.28 2.02-2.28s2.04 1.03 2.02 2.28c0 1.25-.9 2.27-2.02 2.27Zm7 0c-1.11 0-2.02-1.02-2.02-2.27 0-1.26.89-2.28 2.02-2.28s2.04 1.03 2.02 2.28c0 1.25-.89 2.27-2.02 2.27Z"/></svg>
+          Присоединиться к Discord
+          <span>→</span>
+        </a>
+      </div>
+
+      <div class="features">
+        <div><strong>01</strong><span>Скопируйте<br>ключ</span></div>
+        <div><strong>02</strong><span>Откройте<br>приложение</span></div>
+        <div><strong>03</strong><span>Активируйте<br>доступ</span></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status">Ключ скопирован</div>
+  <footer>© 2026 NOVA <span>•</span> ALL RIGHTS RESERVED</footer>
+  <script src="script.js"></script>
+</body>
+</html>
